@@ -27,6 +27,45 @@ public class shuffle : MonoBehaviour {
         imgBlank = GameObject.Find("imgBlank");
 
         int round = 0;
+        int rn = -1;
+
+        while (round < 300)
+        {
+            round += 1;
+
+            rn = Random.Range(1, 8);
+            
+            switch (rn)
+            {
+                case 1:
+                    ShuffleMe(img1);
+                    break;
+                case 2:
+                    ShuffleMe(img2);
+                    break;
+                case 3:
+                    ShuffleMe(img3);
+                    break;
+                case 4:
+                    ShuffleMe(img4);
+                    break;
+                case 5:
+                    ShuffleMe(img5);
+                    break;
+                case 6:
+                    ShuffleMe(img6);
+                    break;
+                case 7:
+                    ShuffleMe(img7);
+                    break;
+                case 8:
+                    ShuffleMe(img8);
+                    break;
+            }
+
+            
+
+        }
 
     }
 	
@@ -34,4 +73,26 @@ public class shuffle : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void ShuffleMe (GameObject go)
+    {
+        Transform myTransform = go.GetComponent<Transform>();
+        Transform blankTransform = GameObject.Find("imgBlank").GetComponent<Transform>();
+
+        if (
+               myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
+            || myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y - 2.2f
+            || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x + 2.2f
+            || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x - 2.2f
+            )
+        {
+
+            Vector3 myCoordinates = myTransform.position;
+            Vector3 blankCoordinates = blankTransform.position;
+
+            blankTransform.position = myCoordinates;
+            myTransform.position = blankCoordinates;
+
+        }
+    }
 }
