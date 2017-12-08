@@ -16,8 +16,19 @@ public class shuffle : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        //img1 = GameObject.Find("img1");
-	}
+        img1 = GameObject.Find("img1");
+        img2 = GameObject.Find("img2");
+        img3 = GameObject.Find("img3");
+        img4 = GameObject.Find("img4");
+        img5 = GameObject.Find("img5");
+        img6 = GameObject.Find("img6");
+        img7 = GameObject.Find("img7");
+        img8 = GameObject.Find("img8");
+        imgBlank = GameObject.Find("imgBlank");
+
+        int round = 0;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

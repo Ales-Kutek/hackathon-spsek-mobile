@@ -29,10 +29,10 @@ public class swap : MonoBehaviour {
 			
 			Vector3 mouseCoordinates = c.ScreenToWorldPoint(Input.mousePosition);
 
-			if(     mouseCoordinates.x < (myTransform.position.x + myTransform.lossyScale.x / 2)
-                    && mouseCoordinates.x > (myTransform.position.x - myTransform.lossyScale.x / 2)
-                    && mouseCoordinates.y < (myTransform.position.y + myTransform.lossyScale.y / 2)
-                    && mouseCoordinates.y > (myTransform.position.y - myTransform.lossyScale.y / 2)
+			if(     mouseCoordinates.x < (myTransform.position.x + myTransform.lossyScale.x)
+                    && mouseCoordinates.x > (myTransform.position.x - myTransform.lossyScale.x)
+                    && mouseCoordinates.y < (myTransform.position.y + myTransform.lossyScale.y)
+                    && mouseCoordinates.y > (myTransform.position.y - myTransform.lossyScale.y)
 
                   )
                 {
