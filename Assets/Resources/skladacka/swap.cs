@@ -37,10 +37,10 @@ public class swap : MonoBehaviour {
                   )
                 {
 	                if (
-						   myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
-		                || myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y - 2.2f
-                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x + 2.2f
-                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x - 2.2f
+						   myTransform.position.x == blankTransform.position.x && myTransform.position.y == blankTransform.position.y + 2.1f
+		                || myTransform.position.x == blankTransform.position.x && myTransform.position.y == blankTransform.position.y - 2.1f
+                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x == blankTransform.position.x + 2.1f
+                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x == blankTransform.position.x - 2.1f
 	             )
 	             {
 
