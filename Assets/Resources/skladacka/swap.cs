@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class swap : MonoBehaviour {
-
+    
+    
+	
 	Camera c;
 	GameObject goBlank;
 	Transform BlankTransform;
@@ -35,6 +37,15 @@ public class swap : MonoBehaviour {
 
                   )
                 {
+
+	                if (
+						true
+
+	                )
+	                {
+
+
+	                }
 
 					Vector3 myCoordinates = myTransform.position;
 					Vector3 blankCoordinates = BlankTransform.position;
