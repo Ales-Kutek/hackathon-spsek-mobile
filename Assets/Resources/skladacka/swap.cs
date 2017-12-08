@@ -8,7 +8,7 @@ public class swap : MonoBehaviour {
 	
 	Camera c;
 	GameObject goBlank;
-	Transform BlankTransform;
+	Transform blankTransform;
 	Transform myTransform;
 	
 	// Use this for initialization
@@ -16,14 +16,14 @@ public class swap : MonoBehaviour {
 
 		c = Camera.main;
 		goBlank = GameObject.Find("imgBlank");
-		BlankTransform = goBlank.GetComponent<Transform>();
+		blankTransform = goBlank.GetComponent<Transform>();
 		myTransform = GetComponent<Transform>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		BlankTransform = goBlank.GetComponent<Transform>();
+		blankTransform = goBlank.GetComponent<Transform>();
 		myTransform = GetComponent<Transform>();
 
 		if (Input.GetMouseButtonDown(0)){
@@ -37,9 +37,9 @@ public class swap : MonoBehaviour {
 
                   )
                 {
-
 	                if (
-						true
+						myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
+		                ||myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
 
 	                )
 	                {
@@ -48,9 +48,9 @@ public class swap : MonoBehaviour {
 	                }
 
 					Vector3 myCoordinates = myTransform.position;
-					Vector3 blankCoordinates = BlankTransform.position;
+					Vector3 blankCoordinates = blankTransform.position;
 					
-					BlankTransform.position = myCoordinates;
+					blankTransform.position = myCoordinates;
 					myTransform.position = blankCoordinates;
 
 
