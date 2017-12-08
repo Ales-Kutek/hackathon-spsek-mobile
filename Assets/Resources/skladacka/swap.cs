@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class swap : MonoBehaviour {
     
-    
 	
 	Camera c;
 	GameObject goBlank;
@@ -38,20 +37,22 @@ public class swap : MonoBehaviour {
                   )
                 {
 	                if (
-						myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
-		                ||myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
+						   myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y + 2.2f
+		                || myTransform.position.x == blankTransform.position.x && myTransform.position.y < blankTransform.position.y - 2.2f
+                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x + 2.2f
+                        || myTransform.position.y == blankTransform.position.y && myTransform.position.x < blankTransform.position.x - 2.2f
+	             )
+	             {
 
-	                )
-	                {
+                    Vector3 myCoordinates = myTransform.position;
+                    Vector3 blankCoordinates = blankTransform.position;
 
+                    blankTransform.position = myCoordinates;
+                    myTransform.position = blankCoordinates;
 
-	                }
+                }
 
-					Vector3 myCoordinates = myTransform.position;
-					Vector3 blankCoordinates = blankTransform.position;
 					
-					blankTransform.position = myCoordinates;
-					myTransform.position = blankCoordinates;
 
 
                 }
