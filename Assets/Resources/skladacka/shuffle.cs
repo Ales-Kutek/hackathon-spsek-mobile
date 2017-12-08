@@ -29,7 +29,7 @@ public class shuffle : MonoBehaviour {
         int round = 0;
         int rn = -1;
 
-        while (round < 300)
+        while (round < 8)
         {
             round += 1;
 
