@@ -15,6 +15,9 @@
         </e>
         <e p="Resources" t="Include">
           <e p="change_username.cs" t="Include" />
+          <e p="core" t="Include">
+            <e p="getName.cs" t="Include" />
+          </e>
           <e p="login_script.cs" t="Include" />
           <e p="pexeso" t="Include">
             <e p="card.cs" t="Include" />
