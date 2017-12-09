@@ -23,9 +23,13 @@ public class login_script : MonoBehaviour
 	void DoIt()
 	{
 		user.username = LoginInput.text;
+	}
+
+	private void OnMouseOver()
+	{
 		SceneManager.LoadScene("Resources/core/MainMenu");
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		
