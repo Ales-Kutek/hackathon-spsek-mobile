@@ -14,6 +14,10 @@ public class login_script : MonoBehaviour
 	void Start ()
 	{
 		LoginInput = GameObject.FindGameObjectWithTag("loginField").GetComponent<InputField>();
+
+		Debug.Log(LoginInput);
+
+		GameObject.FindGameObjectWithTag("loginButton").GetComponent<Button>().onClick.AddListener(DoIt);
 	}
 
 	void DoIt()
