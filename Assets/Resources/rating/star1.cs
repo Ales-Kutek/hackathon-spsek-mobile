@@ -16,6 +16,8 @@ public class star1 : MonoBehaviour {
     Renderer rndr4;
     Renderer rndr5;
 
+    GameObject submit;
+
 	// Use this for initialization
 	void Start () {
         goStar1 = GameObject.Find("star1");
@@ -29,6 +31,8 @@ public class star1 : MonoBehaviour {
         rndr3 = star3.GetComponent<Renderer>();
         rndr4 = star4.GetComponent<Renderer>();
         rndr5 = star5.GetComponent<Renderer>();
+
+        submit = GameObject.Find("imgSubmit");
     }
 
     // Update is called once per frame
@@ -36,22 +40,44 @@ public class star1 : MonoBehaviour {
 
         if (checkTouch(goStar1))
         {
+            rndr2.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr3.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr4.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr5.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
         }
-        if (checkTouch(star2))
+        else if (checkTouch(star2))
         {
-
+            rndr2.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr3.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr4.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr5.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
         }
-        if (checkTouch(star3))
+        else if (checkTouch(star3))
         {
-
+            rndr2.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr3.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr4.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
+            rndr5.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
         }
-        if (checkTouch(star4))
+        else if (checkTouch(star4))
         {
-
+            rndr2.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr3.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr4.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr5.material = Resources.Load("rating/matStarB", typeof(Material)) as Material;
         }
-        if (checkTouch(star5))
+        else if (checkTouch(star5))
         {
-
+            rndr2.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr3.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr4.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+            rndr5.material = Resources.Load("rating/matStarW", typeof(Material)) as Material;
+        }
+        if (checkTouch(submit))
+        {
+            /*
+             *  AKCE PO ODESLANI HODNOCENI
+             */ 
         }
 
 
@@ -66,10 +92,10 @@ public class star1 : MonoBehaviour {
 
             Vector3 mouseCoordinates = c.ScreenToWorldPoint(Input.mousePosition);
 
-            if (mouseCoordinates.x < (tr.position.x + tr.lossyScale.x)
-                    && mouseCoordinates.x > (tr.position.x - tr.lossyScale.x)
-                    && mouseCoordinates.y < (tr.position.y + tr.lossyScale.y)
-                    && mouseCoordinates.y > (tr.position.y - tr.lossyScale.y)
+            if (mouseCoordinates.x < (tr.position.x + tr.lossyScale.x/2)
+                    && mouseCoordinates.x > (tr.position.x - tr.lossyScale.x/2)
+                    && mouseCoordinates.y < (tr.position.y + tr.lossyScale.y/2)
+                    && mouseCoordinates.y > (tr.position.y - tr.lossyScale.y/2)
 
                   )
             {
