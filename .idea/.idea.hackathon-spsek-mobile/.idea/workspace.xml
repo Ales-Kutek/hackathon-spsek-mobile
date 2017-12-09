@@ -4,7 +4,8 @@
     <list default="true" id="d0803917-d9df-46ac-a787-3fb378cfdcb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/qr_reader.cs" afterPath="$PROJECT_DIR$/Assets/qr_reader.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/core/MainMenu.unity" afterPath="$PROJECT_DIR$/Assets/Resources/core/MainMenu.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/go_qr_reader.cs" afterPath="$PROJECT_DIR$/Assets/go_qr_reader.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,18 +20,27 @@
       <file leaf-file-name="swap.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="-36">
               <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding />
+              <folding>
+                <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+                <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qr_reader.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qr_reader.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="414">
+              <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               <folding>
                 <marker date="1512786063520" expanded="true" signature="6:184" ph="..." />
                 <marker date="1512786063520" expanded="true" signature="225:1334" ph="{...}" />
@@ -48,6 +58,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="go_qr_reader.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+              <folding>
+                <marker date="1512788453867" expanded="false" signature="6:113" ph="..." />
+                <marker date="1512788453867" expanded="true" signature="156:852" ph="{...}" />
+                <marker date="1512788453867" expanded="true" signature="260:331" ph="{...}" />
+                <marker date="1512788453867" expanded="true" signature="386:850" ph="{...}" />
+                <marker date="1512788453867" expanded="true" signature="418:847" ph="{...}" />
+                <marker date="1512788453867" expanded="true" signature="778:843" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -56,12 +83,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs" />
         <option value="$PROJECT_DIR$/Assets/qr_reader.cs" />
+        <option value="$PROJECT_DIR$/Assets/go_qr_reader.cs" />
       </list>
     </option>
   </component>
@@ -219,12 +248,12 @@
       <workItem from="1512779107413" duration="42000" />
       <workItem from="1512779201679" duration="39000" />
       <workItem from="1512779303618" duration="79000" />
-      <workItem from="1512780055453" duration="5572000" />
+      <workItem from="1512780055453" duration="7963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8069000" />
+    <option name="totallyTimeSpent" value="10460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,6 +277,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -280,7 +310,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -308,7 +347,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +384,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +421,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,7 +458,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,22 +475,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
+        <state relative-caret-position="-36">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1512777095577" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512777095577" expanded="true" signature="114:2072" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="255:417" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="472:2070" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="607:2013" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1079:1999" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="1675:1972" ph="{...}" />
+            <marker date="1512777095577" expanded="true" signature="2049:2062" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="414">
+          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding>
             <marker date="1512786063520" expanded="true" signature="6:184" ph="..." />
             <marker date="1512786063520" expanded="true" signature="225:1334" ph="{...}" />
@@ -428,6 +521,21 @@
             <marker date="1512786063520" expanded="true" signature="1093:1178" ph="{...}" />
             <marker date="1512786063520" expanded="true" signature="1187:1256" ph="{...}" />
             <marker date="1512786063520" expanded="true" signature="1288:1329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding>
+            <marker date="1512788453867" expanded="false" signature="6:113" ph="..." />
+            <marker date="1512788453867" expanded="true" signature="156:852" ph="{...}" />
+            <marker date="1512788453867" expanded="true" signature="260:331" ph="{...}" />
+            <marker date="1512788453867" expanded="true" signature="386:850" ph="{...}" />
+            <marker date="1512788453867" expanded="true" signature="418:847" ph="{...}" />
+            <marker date="1512788453867" expanded="true" signature="778:843" ph="{...}" />
           </folding>
         </state>
       </provider>

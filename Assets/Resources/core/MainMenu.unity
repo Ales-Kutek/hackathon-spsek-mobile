@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 343121286}
   - component: {fileID: 343121288}
   - component: {fileID: 343121287}
+  - component: {fileID: 343121289}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -241,6 +242,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343121285}
+--- !u!114 &343121289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343121285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bd5663eaa084203ae138a6c66968e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &352894529
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380696914}
   - component: {fileID: 380696915}
+  - component: {fileID: 380696916}
   m_Layer: 0
   m_Name: Fingerprint
   m_TagString: Untagged
@@ -460,6 +473,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &380696916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 380696913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bd5663eaa084203ae138a6c66968e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &550838125
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +795,7 @@ RectTransform:
   m_GameObject: {fileID: 1076270818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 2.964115, y: 2.964115, z: 2.964115}
+  m_LocalScale: {x: 2.4965887, y: 2.4965887, z: 2.4965887}
   m_Children:
   - {fileID: 380696914}
   - {fileID: 343121286}

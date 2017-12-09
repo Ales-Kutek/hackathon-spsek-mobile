@@ -33,6 +33,7 @@
             <e p="sendRequest.cs" t="Include" />
           </e>
         </e>
+        <e p="go_qr_reader.cs" t="Include" />
         <e p="qr_reader.cs" t="Include" />
         <e p="scri.cs" t="Include" />
       </e>
