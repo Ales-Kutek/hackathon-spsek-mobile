@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Resources/core/QrReader.unity
     guid: 3ac177f859f71402782a139f37f3ee72
   - enabled: 1
-    path: Assets/Resources/sql/sql_scene.unity
-    guid: 415066f9bc43a6a459fccd434c43fcd5
-  - enabled: 1
     path: Assets/Resources/skladacka/puzzle_shuffle_scene.unity
     guid: 9fbbeb463d0e6764787e248c3a99d32e
   - enabled: 1

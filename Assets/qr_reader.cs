@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Policy;
 using UnityEngine;
 using ZXing;
 using ZXing.QrCode;
@@ -12,14 +13,13 @@ public class qr_reader : MonoBehaviour {
 
 private WebCamTexture camTexture;
 private Rect screenRect;
-	private Thread _thread;
-	
+	private int i = 0;	
 
 void Start() {
-screenRect = new Rect(0, 0, Screen.width, Screen.height);
+screenRect = new Rect(0, 0, 1920, 1080);
 camTexture = new WebCamTexture();
-camTexture.requestedHeight = Screen.height; 
-camTexture.requestedWidth = Screen.width;
+camTexture.requestedHeight = 1920; 
+camTexture.requestedWidth = 1080;
 	if (camTexture != null)
 	{
 		camTexture.Play();
@@ -29,10 +29,14 @@ camTexture.requestedWidth = Screen.width;
 void OnGUI ()
 {
 // drawing the camera on screen
-GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
 // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
+	GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
+	i++;
 	
-ScanQr();
+	if (i > 300)
+	{
+		SceneManager.LoadScene("Resources/rocket/rocket_scene");
+	}
 }
 
 	private void ScanQr()
