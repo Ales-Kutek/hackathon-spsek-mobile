@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,6 +29,9 @@ public class ButtonClick : MonoBehaviour
 	{
 		GameObject.FindGameObjectWithTag("trueText").GetComponent<Text>().text = "55%";
 		GameObject.FindGameObjectWithTag("falseText").GetComponent<Text>().text = "45%";
+		
+		Thread.Sleep(2000);
+		
 		//Application.Quit();
 	}
 

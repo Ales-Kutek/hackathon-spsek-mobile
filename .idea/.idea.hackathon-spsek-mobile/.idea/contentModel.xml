@@ -24,6 +24,9 @@
             <e p="changeMat.cs" t="Include" />
             <e p="pexeso.cs" t="Include" />
           </e>
+          <e p="rating" t="Include">
+            <e p="star1.cs" t="Include" />
+          </e>
           <e p="rocket" t="Include">
             <e p="cloud.cs" t="Include" />
             <e p="leftConstraint.cs" t="Include" />
@@ -63,24 +66,9 @@
       <e p="Temp" t="ExcludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
       </e>
-      <e p="app.config" t="Include" />
-      <e p="docs" t="Include">
-        <e p="MySqlCommand.xml" t="Include" />
-        <e p="MySqlCommandBuilder.xml" t="Include" />
-        <e p="MySqlConnection.xml" t="Include" />
-        <e p="MySqlConnectionStringBuilder.xml" t="Include" />
-        <e p="MySqlDataAdapter.xml" t="Include" />
-        <e p="MySqlDataReader.xml" t="Include" />
-        <e p="MySqlException.xml" t="Include" />
-        <e p="MySqlHelper.xml" t="Include" />
-        <e p="MySqlParameter.xml" t="Include" />
-        <e p="MySqlParameterCollection.xml" t="Include" />
-        <e p="MySqlTransaction.xml" t="Include" />
-      </e>
       <e p="hackathon-spsek-mobile.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="packages.config" t="Include" />
     </e>
   </component>
   <component name="RiderRiderContentModelStore">

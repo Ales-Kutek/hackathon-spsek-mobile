@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class rocket : MonoBehaviour {
     
@@ -106,6 +107,7 @@ public class rocket : MonoBehaviour {
                     healthBarRenderer.material = Resources.Load("rocket/matHp0", typeof(Material)) as Material;
                     break;
                 case 0:
+                    SceneManager.LoadScene("Resources/wouldyou/wouldyou");
                     break;
             }
             health--;
