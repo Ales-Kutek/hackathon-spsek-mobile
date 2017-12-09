@@ -18,12 +18,19 @@
             <e p="changeMat.cs" t="Include" />
             <e p="pexeso.cs" t="Include" />
           </e>
+          <e p="rocket" t="Include">
+            <e p="cloud.cs" t="Include" />
+            <e p="rocket.cs" t="Include" />
+          </e>
           <e p="skladacka" t="Include">
             <e p="checkWin.cs" t="Include" />
             <e p="shuffle.cs" t="Include" />
             <e p="swap.cs" t="Include" />
             <e p="todo.cs" t="Include" />
             <e p="todo.txt" t="Include" />
+          </e>
+          <e p="sql" t="Include">
+            <e p="sendRequest.cs" t="Include" />
           </e>
         </e>
         <e p="qr_reader.cs" t="Include" />

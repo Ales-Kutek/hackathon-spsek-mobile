@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using UnityEngine;
 using ZXing;
 using ZXing.QrCode;
@@ -14,7 +13,6 @@ public class qr_reader : MonoBehaviour {
 private WebCamTexture camTexture;
 private Rect screenRect;
 	private Thread _thread;
-	private string result;
 	
 
 void Start() {
@@ -22,11 +20,10 @@ screenRect = new Rect(0, 0, Screen.width, Screen.height);
 camTexture = new WebCamTexture();
 camTexture.requestedHeight = Screen.height; 
 camTexture.requestedWidth = Screen.width;
-if (camTexture != null) {
-	camTexture.Play();
-}
-	_thread = new Thread(() => ScanQr(result)); 
-	_thread.Start();
+	if (camTexture != null)
+	{
+		camTexture.Play();
+	}
 }
 
 void OnGUI ()
@@ -34,13 +31,11 @@ void OnGUI ()
 // drawing the camera on screen
 GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
 // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
-	if (result != null)
-	{
-		SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
-	}
+	
+ScanQr();
 }
 
-	private void ScanQr(string _result)
+	private void ScanQr()
 	{
 		try
 		{
@@ -50,7 +45,14 @@ GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
 				camTexture.width, camTexture.height);
 			if (result != null)
 			{
-				_result = result.Text;
+				if (result.Text == "123456")
+				{
+					SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
+				}
+				else
+				{
+					SceneManager.LoadScene("Resources/core/main_menu");
+				}
 			}
 		}
 		catch (Exception ex)
