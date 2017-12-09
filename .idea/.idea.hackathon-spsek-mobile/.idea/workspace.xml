@@ -4,6 +4,7 @@
     <list default="true" id="2f799b67-b704-48d3-b94a-40c81bae1c13" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/core/QrReader.unity" afterPath="$PROJECT_DIR$/Assets/Resources/core/QrReader.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/qr_reader.cs" afterPath="$PROJECT_DIR$/Assets/qr_reader.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
@@ -264,12 +265,12 @@
       <workItem from="1512779303618" duration="79000" />
       <workItem from="1512780055453" duration="16795000" />
       <workItem from="1512798718033" duration="57000" />
-      <workItem from="1512799283860" duration="7960000" />
+      <workItem from="1512799283860" duration="8020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27309000" />
+    <option name="totallyTimeSpent" value="27369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
