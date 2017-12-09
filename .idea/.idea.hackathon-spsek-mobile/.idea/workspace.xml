@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f799b67-b704-48d3-b94a-40c81bae1c13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/core/getName.cs" afterPath="$PROJECT_DIR$/Assets/Resources/core/getName.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/user.cs" afterPath="$PROJECT_DIR$/Assets/Resources/user.cs" />
-    </list>
+    <list default="true" id="2f799b67-b704-48d3-b94a-40c81bae1c13" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="getName.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/core/getName.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <marker date="1512803025972" expanded="true" signature="6:100" ph="..." />
                 <marker date="1512803025972" expanded="true" signature="138:386" ph="{...}" />
@@ -263,12 +260,12 @@
       <workItem from="1512779303618" duration="79000" />
       <workItem from="1512780055453" duration="16795000" />
       <workItem from="1512798718033" duration="57000" />
-      <workItem from="1512800085906" duration="2852000" />
+      <workItem from="1512800085906" duration="3501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22226000" />
+    <option name="totallyTimeSpent" value="22875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/core/getName.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <marker date="1512803025972" expanded="true" signature="6:100" ph="..." />
             <marker date="1512803025972" expanded="true" signature="138:386" ph="{...}" />
