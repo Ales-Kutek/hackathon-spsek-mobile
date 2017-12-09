@@ -23,6 +23,8 @@ public class rocket : MonoBehaviour {
     Rigidbody2D rb;
     Transform tr;
 
+    Transform trMore;
+
 
 
     Camera c;
@@ -37,6 +39,7 @@ public class rocket : MonoBehaviour {
         healthBarRenderer = GameObject.Find("healthBar").GetComponent<Renderer>();
         healthBarRenderer.material = Resources.Load("rocket/matHp4", typeof(Material)) as Material;
         healthBarTransform = GameObject.Find("healthBar").GetComponent<Transform>();
+        trMore = GameObject.Find("btnVice").GetComponent<Transform>();
     }
 	
 	// Update is called once per frame
@@ -45,13 +48,19 @@ public class rocket : MonoBehaviour {
         if (Input.GetMouseButton(0))
         {
             Vector3 mouseCoordinates = c.ScreenToWorldPoint(Input.mousePosition);
-            if (mouseCoordinates.x > 0)
+            if (mouseCoordinates.x > 0 && mouseCoordinates.y > - 3.5)
             {
                 rb.velocity = new Vector3(rb.velocity.x + 0.3f, rb.velocity.y, 0);
             }
-            else if (mouseCoordinates.x < 0)
+            else if (mouseCoordinates.x < 0 && mouseCoordinates.y > -3.5)
             {
                 rb.velocity = new Vector3(rb.velocity.x - 0.3f, rb.velocity.y, 0);
+            }
+            else if(mouseCoordinates.y < -3.5)
+            {
+                /*
+                 * TLACITKO ZOBRAZIT VICE
+                 */
             }
         }
 
@@ -78,11 +87,15 @@ public class rocket : MonoBehaviour {
             Instantiate(Resources.Load("rocket/goSatellite"));
         }
 
-        tr.position = new Vector3(tr.position.x, -3, -1);
+        tr.position = new Vector3(tr.position.x, -1, -1);
 
         Vector3 healthBarCoordinates = c.ScreenToWorldPoint( new Vector3(1,c.pixelHeight,-8));
 
         healthBarTransform.position = new Vector3(healthBarCoordinates.x+3, healthBarCoordinates.y-1.5f, -9);
+
+        Vector3 moreBtnCoordinates = c.ScreenToWorldPoint(new Vector3(c.pixelWidth / 2, 10, -8));
+
+        trMore.position = new Vector3(moreBtnCoordinates.x, moreBtnCoordinates.y, -8);
 
     }
 
