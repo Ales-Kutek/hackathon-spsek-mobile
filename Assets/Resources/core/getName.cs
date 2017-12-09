@@ -7,10 +7,14 @@ public class getName : MonoBehaviour
 {
 
 	public Text NameText;
+
+	public Text PointsText;
+	
 	// Use this for initialization
 	void Start ()
 	{
 		NameText.text = user.username;
+		PointsText.text = user.points.ToString();
 	}
 	
 	// Update is called once per frame
