@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,12 +21,21 @@ public class go_qr_reader : MonoBehaviour
 		{
 			Vector3 mouseCoordinates = c.ScreenToWorldPoint(Input.mousePosition);
 
-			if (mouseCoordinates.x < (fingerPrint.transform.position.x + 40)
-			    && mouseCoordinates.x > (fingerPrint.transform.position.x - 40)
-			    && mouseCoordinates.y < (fingerPrint.transform.position.y + 80)
-			    && mouseCoordinates.y > (fingerPrint.transform.position.y - 80))
+			try
 			{
-				SceneManager.LoadScene("Resources/core/QrReader");
+
+				if (mouseCoordinates.x < (fingerPrint.transform.position.x + 40)
+				    && mouseCoordinates.x > (fingerPrint.transform.position.x - 40)
+				    && mouseCoordinates.y < (fingerPrint.transform.position.y + 80)
+				    && mouseCoordinates.y > (fingerPrint.transform.position.y - 80))
+				{
+					//SceneManager.LoadScene("Resources/core/QrReader");
+					SceneManager.LoadScene("Resources/wouldyou/wouldyou");
+				}
+			}
+			catch (Exception exception)
+			{
+				
 			}
 		}
 	}

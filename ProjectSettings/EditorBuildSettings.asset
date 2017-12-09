@@ -20,3 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/skladacka/puzzle_shuffle_win_scene.unity
     guid: 9b7373fa611a12b45aa669b3d15f4ab9
+  - enabled: 1
+    path: Assets/Resources/login/login_scene.unity
+    guid: 5ca547f5f289d403a951ea143fe3bc7d
+  - enabled: 1
+    path: Assets/Resources/wouldyou/wouldyou.unity
+    guid: 98cd2b0ac17174b4d8742342f2366371

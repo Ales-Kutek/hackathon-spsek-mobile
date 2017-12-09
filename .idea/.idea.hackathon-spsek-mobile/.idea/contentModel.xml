@@ -37,6 +37,9 @@
             <e p="sendRequest.cs" t="Include" />
           </e>
           <e p="user.cs" t="Include" />
+          <e p="wouldyou" t="Include">
+            <e p="ButtonClick.cs" t="Include" />
+          </e>
         </e>
         <e p="Simple Scene Fade Load System" t="Include">
           <e p="Demo (You don't have to import this folder)" t="Include">
