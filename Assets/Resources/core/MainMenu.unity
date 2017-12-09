@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 1076270821}
   - component: {fileID: 1076270820}
   - component: {fileID: 1076270819}
+  - component: {fileID: 1076270823}
   m_Layer: 0
   m_Name: Foreground
   m_TagString: Untagged
@@ -795,7 +796,7 @@ RectTransform:
   m_GameObject: {fileID: 1076270818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 2.4965887, y: 2.4965887, z: 2.4965887}
+  m_LocalScale: {x: 2.6033509, y: 2.6033509, z: 2.6033509}
   m_Children:
   - {fileID: 380696914}
   - {fileID: 343121286}
@@ -811,3 +812,15 @@ RectTransform:
   m_AnchoredPosition: {x: 1, y: -2.6}
   m_SizeDelta: {x: 1714.8, y: 601.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1076270823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076270818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415ee11c632134dd7be80c986a1393fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: {fileID: 550838127}

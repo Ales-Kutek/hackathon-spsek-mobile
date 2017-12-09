@@ -1,18 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class login_script : MonoBehaviour
+public class getName : MonoBehaviour
 {
-	public InputField LoginInput;
-	
+
+	public Text NameText;
 	// Use this for initialization
 	void Start ()
 	{
-		user.username = LoginInput.text;
-		SceneManager.LoadScene("Resources/core/MainMenu");
+		NameText.text = user.username;
 	}
 	
 	// Update is called once per frame
