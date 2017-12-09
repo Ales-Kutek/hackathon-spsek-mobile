@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f799b67-b704-48d3-b94a-40c81bae1c13" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.hackathon-spsek-mobile/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/core/MoreInfo.unity" afterPath="$PROJECT_DIR$/Assets/Resources/core/MoreInfo.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/core/QrReader.unity" afterPath="$PROJECT_DIR$/Assets/Resources/core/QrReader.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/qr_reader.cs" afterPath="$PROJECT_DIR$/Assets/qr_reader.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,33 +16,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="login_script.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/login_script.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="go_qr_reader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="450">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1512802137414" expanded="true" signature="6:135" ph="..." />
-                <marker date="1512802137414" expanded="true" signature="178:418" ph="{...}" />
-                <marker date="1512802137414" expanded="true" signature="260:354" ph="{...}" />
-                <marker date="1512802137414" expanded="true" signature="409:416" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="6:127" ph="..." />
+                <marker date="1512798921994" expanded="true" signature="170:937" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="274:345" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="400:935" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="432:932" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="517:882" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="809:877" ph="{...}" />
+                <marker date="1512798921994" expanded="true" signature="913:928" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getName.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/core/getName.cs">
+      <file leaf-file-name="qr_reader.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="2070">
+              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
-                <marker date="1512803025972" expanded="true" signature="6:100" ph="..." />
-                <marker date="1512803025972" expanded="true" signature="138:386" ph="{...}" />
-                <marker date="1512803025972" expanded="true" signature="239:322" ph="{...}" />
-                <marker date="1512803025972" expanded="true" signature="377:384" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+                <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+                <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector3.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/d9/e7f0cfbf/Vector3.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="367" column="26" lean-forward="false" selection-start-line="367" selection-start-column="26" selection-end-line="367" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/28/9e486894/Rect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,23 +89,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/change_username.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/28/9e486894/Rect.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/wouldyou/ButtonClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/user.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/login_script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scri.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/core/getName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/d9/e7f0cfbf/Vector3.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/5e/0582c4db/GUITexture.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/qr_reader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/login_script.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/user.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/core/getName.cs" />
       </list>
     </option>
   </component>
@@ -76,10 +111,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,43 +153,7 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Resources" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Resources" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="core" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Resources" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="hackathon-spsek-mobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Resources" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="skladacka" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -248,6 +247,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2f799b67-b704-48d3-b94a-40c81bae1c13" name="Default" comment="" />
@@ -263,12 +265,12 @@
       <workItem from="1512779303618" duration="79000" />
       <workItem from="1512780055453" duration="16795000" />
       <workItem from="1512798718033" duration="57000" />
-      <workItem from="1512800085906" duration="4101000" />
+      <workItem from="1512799283860" duration="8020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23475000" />
+    <option name="totallyTimeSpent" value="27369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,30 +282,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24270834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,8 +325,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <marker date="1512798921994" expanded="true" signature="6:127" ph="..." />
+            <marker date="1512798921994" expanded="true" signature="170:937" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="274:345" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="400:935" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="432:932" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="517:882" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="809:877" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="913:928" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <marker date="1512798921994" expanded="true" signature="6:127" ph="..." />
+            <marker date="1512798921994" expanded="true" signature="170:937" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="274:345" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="400:935" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="432:932" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="517:882" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="809:877" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="913:928" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -332,6 +386,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,6 +418,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -360,6 +450,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -374,6 +482,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -388,6 +514,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,183 +591,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/5e/0582c4db/GUITexture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/28/9e486894/Rect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scri.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/skladacka/swap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/wouldyou/ButtonClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1512798921994" expanded="true" signature="6:127" ph="..." />
+            <marker date="1512798921994" expanded="true" signature="170:937" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="274:345" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="400:935" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="432:932" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="517:882" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="809:877" ph="{...}" />
+            <marker date="1512798921994" expanded="true" signature="913:928" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/go_qr_reader.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49DA1AD0-74BC-4EE5-9426-6A359760C764/d9/e7f0cfbf/Vector3.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="319">
+          <caret line="367" column="26" lean-forward="false" selection-start-line="367" selection-start-column="26" selection-end-line="367" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/qr_reader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/change_username.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="2070">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <marker date="1512799878354" expanded="false" signature="6:59" ph="..." />
-            <marker date="1512799878354" expanded="true" signature="90:127" ph="{...}" />
-            <marker date="1512799878354" expanded="true" signature="114:123" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/login_script.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <marker date="1512802137414" expanded="true" signature="6:135" ph="..." />
-            <marker date="1512802137414" expanded="true" signature="178:418" ph="{...}" />
-            <marker date="1512802137414" expanded="true" signature="260:354" ph="{...}" />
-            <marker date="1512802137414" expanded="true" signature="409:416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/user.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <marker date="1512802909709" expanded="true" signature="44:108" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/core/getName.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <marker date="1512803025972" expanded="true" signature="6:100" ph="..." />
-            <marker date="1512803025972" expanded="true" signature="138:386" ph="{...}" />
-            <marker date="1512803025972" expanded="true" signature="239:322" ph="{...}" />
-            <marker date="1512803025972" expanded="true" signature="377:384" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="6:236" ph="..." />
+            <marker date="1512806730827" expanded="true" signature="277:1878" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="486:830" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="797:827" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="845:1288" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="881:1016" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1175:1286" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1312:1789" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1335:1354" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1371:1398" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1405:1711" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1623:1707" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1655:1697" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1734:1775" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1824:1845" ph="{...}" />
+            <marker date="1512806730827" expanded="true" signature="1869:1876" ph="{...}" />
           </folding>
         </state>
       </provider>
