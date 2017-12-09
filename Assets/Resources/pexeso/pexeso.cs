@@ -10,14 +10,17 @@ public class pexeso : MonoBehaviour {
     float cardY;
     Material currentMat;
     Renderer rndr;
+    Transform tr1; //general use transform
+    Transform tr2; //general use transform
     int rn1; //random number
     int rn2; //random number
     Vector3 coord1; //coordinations
     Vector3 coord2;
+    int i; //gneral use integer
 	// Use this for initialization
 	void Start () {
         cardsAmount = 16;
-        int i = 0;
+        i = 0;
         while (i < cardsAmount)
         {
             list.Add(Resources.Load<GameObject>("pexeso/card"));
@@ -26,7 +29,7 @@ public class pexeso : MonoBehaviour {
             cardX = i % 4;
             cardY = int.Parse( (i / 4).ToString());
             list[i].transform.position = new Vector3(cardX, cardY, 0);
-
+            
             switch (int.Parse(((i/2)+1).ToString()))
             {
                 case 1:
@@ -62,21 +65,43 @@ public class pexeso : MonoBehaviour {
                     rndr.material = Resources.Load("pexeso/mat08", typeof(Material)) as Material;
                     break;
             }
-
+            
             i++;
         }
-        i = 0;
-        while (i < 50)
+        i = 1;
+        while (i < 15)
         {
-            rn1 = Random.Range(0, cardsAmount - 1);
-            rn2 = Random.Range(0, cardsAmount - 1);
+            
+            rn1 = int.Parse((Random.Range(0, cardsAmount - 1)).ToString());
+            rn2 = int.Parse((Random.Range(0, cardsAmount - 1)).ToString());
+
+            /*
+            rn1 = 2;
+            rn2 = 8;
+            */
+
+            tr1 = list[rn1].GetComponent<Transform>();
+            tr2 = list[rn2].GetComponent<Transform>();
+
+            Debug.Log(rn1);
+            //coord1 = new Vector3(rn1, rn2, 0);
+            
 
 
+            /*
+            list[rn1].transform.position = new Vector3(100, 100, 0);
+            list[rn2].transform.position = coord1;
+            */
 
-            i++;
+            /* 
+            list[6].transform.position = new Vector3(100, 100, 0);
+            list[12].transform.position = new Vector3(100, 100, 0);
+            */
+
+            i +=1;
         }
-        
-        list[4].transform.position = new Vector3(3, 3, 3);
+        //list[6].transform.position = new Vector3(100, 100, 0);
+
     }
 
     // Update is called once per frame
