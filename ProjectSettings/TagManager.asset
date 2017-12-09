@@ -9,6 +9,8 @@ TagManager:
   - falseButton
   - trueText
   - falseText
+  - loginButton
+  - loginField
   layers:
   - Default
   - TransparentFX

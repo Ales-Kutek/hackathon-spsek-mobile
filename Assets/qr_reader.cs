@@ -45,15 +45,6 @@ public class qr_reader : MonoBehaviour {
 
 void OnGUI ()
 {
-	if (Input.GetMouseButtonDown(0))
-	{
-		var angle = 10.0f * 0.5f;
-		_tapped += angle;
-
-//		transform.Rotate(Vector3.forward, angle);
-
-		Debug.Log("XXSA: " + _tapped);
-	}
 
 	rawimage.texture = camTexture;
 	rawimage.material.mainTexture = camTexture;
@@ -63,7 +54,7 @@ void OnGUI ()
 	if (_qrResult != null && _qrResult != "")
 	{
 		Debug.Log("XXSA: " + _qrResult);
-		SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
+		SceneManager.LoadScene("Resources/rocket/rocket_scene");
 	}
 }
 
@@ -79,6 +70,8 @@ void OnGUI ()
 			i--;
 			return;
 		}
+
+		Debug.Log("try");
 
 		try
 		{
