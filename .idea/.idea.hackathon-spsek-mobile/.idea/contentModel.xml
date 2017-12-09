@@ -24,6 +24,9 @@
             <e p="changeMat.cs" t="Include" />
             <e p="pexeso.cs" t="Include" />
           </e>
+          <e p="rating" t="Include">
+            <e p="star1.cs" t="Include" />
+          </e>
           <e p="rocket" t="Include">
             <e p="cloud.cs" t="Include" />
             <e p="leftConstraint.cs" t="Include" />
