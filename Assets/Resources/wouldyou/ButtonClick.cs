@@ -26,12 +26,13 @@ public class ButtonClick : MonoBehaviour
 
 	void TrueClicked()
 	{
-		Debug.Log("fsdf");
+		GameObject.FindGameObjectWithTag("trueText").GetComponent<Text>().text = "55%";
+		GameObject.FindGameObjectWithTag("falseText").GetComponent<Text>().text = "45%";
 		//Application.Quit();
 	}
 
 	void FalseClicked()
 	{
-		
+		TrueClicked();
 	}
 }

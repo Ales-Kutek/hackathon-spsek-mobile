@@ -29,8 +29,7 @@ public class go_qr_reader : MonoBehaviour
 				    && mouseCoordinates.y < (fingerPrint.transform.position.y + 80)
 				    && mouseCoordinates.y > (fingerPrint.transform.position.y - 80))
 				{
-					//SceneManager.LoadScene("Resources/core/QrReader");
-					SceneManager.LoadScene("Resources/wouldyou/wouldyou");
+					SceneManager.LoadScene("Resources/core/QrReader");
 				}
 			}
 			catch (Exception exception)

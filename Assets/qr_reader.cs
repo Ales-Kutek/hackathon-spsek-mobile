@@ -31,12 +31,13 @@ void OnGUI ()
 // drawing the camera on screen
 // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
 	GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
-	i++;
+	ScanQr();
+	//i++;
 	
-	if (i > 300)
+	/*if (i > 300)
 	{
 		SceneManager.LoadScene("Resources/rocket/rocket_scene");
-	}
+	}*/
 }
 
 	private void ScanQr()
@@ -49,14 +50,11 @@ void OnGUI ()
 				camTexture.width, camTexture.height);
 			if (result != null)
 			{
-				if (result.Text == "123456")
+				if (result.Text != "")
 				{
 					SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
 				}
-				else
-				{
-					SceneManager.LoadScene("Resources/core/main_menu");
-				}
+				
 			}
 		}
 		catch (Exception ex)
