@@ -7,41 +7,79 @@ using ZXing;
 using ZXing.QrCode;
 using System.Threading;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class qr_reader : MonoBehaviour {
 
+	private WebCamTexture camTexture;
+	private Rect screenRect;
+	private int i = 0;
+	private bool run = true;
 
-private WebCamTexture camTexture;
-private Rect screenRect;
-	private int i = 0;	
+	private string _qrResult;
 
-void Start() {
-screenRect = new Rect(0, 0, 1920, 1080);
-camTexture = new WebCamTexture();
-camTexture.requestedHeight = 1920; 
-camTexture.requestedWidth = 1080;
-	if (camTexture != null)
+	public RawImage rawimage;
+
+	private float _tapped = 0;
+
+	void Start()
 	{
-		camTexture.Play();
+		rawimage = GetComponent<RawImage>();
+		camTexture = new WebCamTexture();
+
+		transform.Rotate(Vector3.forward, 270);
+
+		float W = Screen.width;
+		float H = Screen.height;
+
+		float InsetX = -( W / 2) ;
+		float InsetY = -( H / 2) ;
+
+//		screenRect = new Rect(InsetX, InsetY, W, H);
+
+		if (camTexture != null)
+		{
+			camTexture.Play();
+		}
 	}
-}
 
 void OnGUI ()
 {
-// drawing the camera on screen
-// do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
-	GUI.DrawTexture (screenRect, camTexture, ScaleMode.ScaleToFit);
-	ScanQr();
-	//i++;
-	
-	/*if (i > 300)
+	if (Input.GetMouseButtonDown(0))
 	{
-		SceneManager.LoadScene("Resources/rocket/rocket_scene");
-	}*/
+		var angle = 10.0f * 0.5f;
+		_tapped += angle;
+
+//		transform.Rotate(Vector3.forward, angle);
+
+		Debug.Log("XXSA: " + _tapped);
+	}
+
+	rawimage.texture = camTexture;
+	rawimage.material.mainTexture = camTexture;
+
+	new Thread(o => ScanQr()).Start();
+
+	if (_qrResult != null && _qrResult != "")
+	{
+		Debug.Log("XXSA: " + _qrResult);
+		SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
+	}
 }
 
 	private void ScanQr()
 	{
+		if (run == false)
+		{
+			return;
+		}
+
+		if (!(i < 0))
+		{
+			i--;
+			return;
+		}
+
 		try
 		{
 			IBarcodeReader barcodeReader = new BarcodeReader();
@@ -52,7 +90,7 @@ void OnGUI ()
 			{
 				if (result.Text != "")
 				{
-					SceneManager.LoadScene("Resources/skladacka/puzzle_shuffle_scene");
+					_qrResult = result.Text;
 				}
 				
 			}
@@ -61,5 +99,17 @@ void OnGUI ()
 		{
 			Debug.LogWarning(ex.Message);
 		}
+
+		i = 75;
+	}
+
+	private void OnApplicationQuit()
+	{
+		run = false;
+	}
+
+	private void Update()
+	{
+
 	}
 }
